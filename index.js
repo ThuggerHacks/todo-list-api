@@ -34,6 +34,11 @@ app.get("/todo",async function(req,res){
 
 });
 
+app.get("/sms",async function(req,res){
+
+    console.log(req.body);
+
+});
 
 app.get("/todo/:_id",async function(req,res){
 
